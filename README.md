@@ -15,8 +15,6 @@ The word is made up of two parts:
 - **UD** = day, time, daily
 - **GILIB** = (combined with UD to mean news/information)
 
-## Features
-
 ### Core Functionality
 
 - **RSS Feed Management** - Subscribe to, organize, and browse RSS feeds
