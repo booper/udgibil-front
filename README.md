@@ -2,8 +2,6 @@
 
 A modern Vue 3 application for reading and managing RSS feeds with advanced features including user authentication, feed management, article publishing, and multi-language support.
 
-![Udgibil Screenshot](public/screen.png)
-
 ## What is UD.GILIB?
 
 **UD.GILIB** is an ancient Sumerian word that translates to **"news"** in English.
