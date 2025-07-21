@@ -316,6 +316,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For support, follow [@Enkiboo](https://x.com/Enkiboo) on X (Twitter).
 
+## Enjoying Udgibil? ☕
+
+If this RSS reader has made your news consumption a little brighter (or saved you from doomscrolling), consider buying me a coffee! ☕ Your support helps keep the servers running and the features flowing.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/booper)
+
+Every cup counts and keeps the ancient Sumerian news spirits happy! 📰✨
+
 ---
 
 Built with ❤️ using Vue 3, Tailwind CSS, and modern web technologies.
