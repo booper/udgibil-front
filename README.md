@@ -2,6 +2,8 @@
 
 A modern Vue 3 application for reading and managing RSS feeds with advanced features including user authentication, feed management, article publishing, and multi-language support.
 
+**Backend Repository:** [udgibil-back](https://github.com/booper/udgibil-back) - The API server that powers this frontend application.
+
 ![Udgibil Screenshot](public/screen1.png)
 
 ## What is UD.GILIB?
@@ -314,11 +316,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Support
 
-For issues, questions, or contributions:
-
-- Create an issue in the project repository
-- Use the built-in support system within the application
-- Check the documentation for common solutions
+For support, follow [@Enkiboo](https://x.com/Enkiboo) on X (Twitter).
 
 ---
 
