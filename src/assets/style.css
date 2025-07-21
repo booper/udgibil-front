@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	overscroll-behavior-x: none;
+  } 
+
+body {
+	overscroll-behavior-x: none;
+}
+
+.container div:nth-child(3n) {
+    @apply border-r-0;
+}
+
+.ce-inline-tool-hyperlink--button{
+    @apply bg-indigo-100 text-indigo-600 hover:bg-indigo-500 hover:text-white;
+}
+
+.ce-inline-tool{
+    @apply border-0 px-2;
+
+}
+
+.ce-toolbar__actions {
+  padding-right:5px ;
+}
+
+.ce-toolbar__actions--opened {
+  @apply p-1 bg-white border rounded-md me-2 -top-1 ;
+}
+
+
+.image-tool__image-picture{
+  @apply rounded-lg;
+}
+
+.ce-paragraph[data-placeholder]:empty:before {
+  color:rgb(209 213 219) !important
+}
+
+.codex-editor__loader { height: 38px !important; }
+
+/* .ce-inline-tool {
+  @apply dark:bg-gray-900;
+}
+
+.ce-toolbar__actions {
+  @apply dark:bg-gray-900 dark:border-gray-700 dark:text-gray-300;
+}
+
+.ce-toolbar__plus, .ce-toolbar__settings-btn{
+  @apply dark:text-gray-300 dark:hover:bg-gray-700;
+}
+.ce_toolbar{
+  @apply dark:bg-gray-900;
+} */
+
+/*
+
+Dark mode for editor.js
+
+*/
+.ce-block__content .ce-header{
+  @apply dark:text-gray-300 dark:text-gray-300;
+}
+
+.ce-toolbar__actions, .ce-popover, .tc-popover {
+  @apply dark:bg-gray-900 dark:border-gray-700 dark:text-gray-300;
+}
+.ce-toolbar__plus, .ce-toolbar__settings-btn {
+  @apply dark:text-gray-300 dark:hover:bg-gray-800;
+}
+
+.tc-popover__item-icon{
+  @apply dark:text-gray-300 dark:bg-gray-800 dark:border-gray-700;
+}
+
+.cdx-search-field{
+  @apply dark:bg-gray-900 dark:border-gray-700 dark:text-gray-300;
+}
+.cdx-search-field input{
+  @apply dark:ring-0;
+}
+.ce-popover-item, .tc-popover__item{
+  @apply dark:text-gray-300 dark:hover:bg-gray-700;
+}
+
+.ce-popover-item__icon, .tc-popover__item-icon, .ce-conversion-tool__icon{
+  @apply dark:text-gray-300 dark:bg-gray-900 dark:border-gray-800 dark:border;
+}
+
+.ce-block--selected{
+  @apply dark:bg-gray-900;
+}
+
+.cdx-block::selection     {
+  @apply dark:bg-gray-500 dark:text-gray-900;
+}
+.ce-block__content .inline-code::selection {
+  @apply dark:bg-gray-500 dark:text-gray-900;
+}
+
+.ce-block__content .ce-header::selection{
+    @apply dark:bg-gray-500 dark:text-gray-900;
+}
+
+.ce-block__content i::selection {
+  @apply dark:bg-gray-500 dark:text-gray-900;
+}
+
+.ce-block__content u::selection {
+  @apply dark:bg-gray-500 dark:text-gray-900;
+}
+
+.ce-block__content b::selection{
+  @apply dark:bg-gray-500 dark:text-gray-900;
+}
+.image-tool--withBackground .image-tool__image{
+
+}
+
+.ce-block--selected .image-tool--withBackground .image-tool__image{
+  @apply dark:bg-gray-400;
+}
+.image-tool--withBackground .image-tool__image{
+  @apply dark:bg-gray-900;
+}
+
+.image-tool--withBorder .image-tool__image{
+  @apply dark:border-gray-500;
+}
+
+
+.ce-block--selected .cdx-block, .tc-row--selected, .tc-cell.tc-cell--selected, .ce-block--selected .ce-header {
+  @apply dark:bg-gray-400 dark:text-gray-900 dark:after:bg-gray-400; 
+}
+
+.cdx-block .tc-add-row, .cdx-block .tc-add-column, .tc-toolbox__toggler {
+  @apply dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-gray-100 dark:after:bg-gray-600 dark:before:bg-gray-800;
+}
+
+.cdx-button, .cdx-loader{
+  @apply dark:bg-gray-900 dark:text-gray-300 dark:hover:bg-gray-700;
+}
+
+.ce-code textarea{
+@apply dark:bg-white/5 dark:border-gray-600 dark:text-gray-300;
+}
+
+.ce-inline-toolbar {
+  @apply dark:bg-gray-900 dark:border-gray-600 ;
+}
+
+.ce-inline-toolbar .ce-inline-tool{
+  @apply dark:hover:bg-gray-600 ;
+}
+
+.ce-inline-toolbar__dropdown{
+  @apply dark:hover:bg-gray-600 ;
+}
+
+.cdx-marker{
+  @apply dark:text-gray-900 dark:bg-yellow-100;
+}
+
+code.inline-code{
+  @apply dark:bg-gray-900 dark:text-green-300;
+}
+
+.ce-conversion-toolbar{
+  @apply dark:bg-gray-900 dark:border-gray-600 ;
+}
+.ce-conversion-tool{
+  @apply dark:hover:bg-gray-700 ;
+}
+
+.cdx-alert{
+  @apply dark:bg-gray-900;
+}
+.cdx-alert.cdx-alert-primary{
+  @apply dark:text-blue-400 dark:border-blue-400;
+}
+.cdx-alert.cdx-alert-secondary{
+  @apply dark:text-gray-400 dark:border-gray-400;
+}
+
+.cdx-alert.cdx-alert-light{
+  @apply dark:text-gray-500 dark:border-gray-500;
+}
